@@ -12,6 +12,12 @@ public class Triangle extends GeomFigure {
 		C = new int[]{C_x, C_y};
 	}
 
+	public Triangle(int[] A, int[] B, int[] C) {
+		this.A = A;
+		this.B = B;
+		this.C = C;
+	}
+
 	public int[] getA() {
 		return A;
 	}
