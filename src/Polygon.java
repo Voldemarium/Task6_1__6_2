@@ -1,9 +1,7 @@
 import java.util.Arrays;
 
 public class Polygon extends GeomFigure implements WithAngles {
-
 	int numberOfVertices;
-
 	int[][] coordinatesOfVertices;
 
 	public Polygon(int numberOfVertices, int[][] coordinatesOfVertices) {

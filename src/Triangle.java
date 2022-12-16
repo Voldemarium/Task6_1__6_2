@@ -1,7 +1,6 @@
 import java.util.Arrays;
 
 public class Triangle extends GeomFigure {
-
 	private int[] A;
 	private int[] B;
 	private int[] C;
